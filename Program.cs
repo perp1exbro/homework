@@ -1,15 +1,6 @@
-﻿int a;                             
-            Console.Write("введите число: ");
-            a= Console.Read();
- 
-            if (a % 2==1)
-            {
-                Console.WriteLine("число нечетное");
-           
-            }
-            else
-            {
-                Console.WriteLine("Число четное");
-            }
- 
-            Console.ReadKey();
+﻿Console.WriteLine("Введите число: ");
+int n = int.Parse(Console.ReadLine());
+    
+for (int i = 1; i <= n; i++)
+    if (i % 2 == 0)
+        Console.WriteLine(i);
