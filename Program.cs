@@ -1,18 +1,15 @@
-﻿Console.WriteLine("Введите первое число: ");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите второе число: ");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+﻿int a;                             
+            Console.Write("введите число: ");
+            a= Console.Read();
  
-            if(num1 > num2)
+            if (a % 2==1)
             {
-                Console.WriteLine("Первое число больше второго");
-            }
-            else if (num1 < num2)
-            {
-                Console.WriteLine("Первое число меньше второго");
+                Console.WriteLine("число нечетное");
+           
             }
             else
             {
-                Console.WriteLine("Оба числа равны");
+                Console.WriteLine("Число четное");
             }
+ 
             Console.ReadKey();
